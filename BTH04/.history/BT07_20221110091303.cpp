@@ -22,25 +22,23 @@ int main()
                 break;
 
             cout << "ban da nhap sai phep toan vui long nhap lai : " << endl;
-            cout << "Chon phep toan +, -, * , / : ";
         }
         result = 0;
-        if (pheptoan == '+')
-        {
+        if (pheptoan == '+') {
 
             result = a + b;
         }
-        else if (pheptoan == '-')
+        if (pheptoan == '-')
         {
 
             result = a - b;
         }
-        else if (pheptoan == '*')
+        if (pheptoan == '*')
         {
 
             result = a + b;
         }
-        else if (pheptoan == '/')
+        if (pheptoan == '/')
         {
 
             result = a / b;

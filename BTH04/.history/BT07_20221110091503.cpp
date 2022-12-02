@@ -14,7 +14,6 @@ int main()
         cout << "Nhap a va b : ";
         cin >> a;
         cin >> b;
-        cout << "Chon phep toan +, -, * , / : ";
         while (true)
         {
             cin >> pheptoan;
@@ -22,7 +21,6 @@ int main()
                 break;
 
             cout << "ban da nhap sai phep toan vui long nhap lai : " << endl;
-            cout << "Chon phep toan +, -, * , / : ";
         }
         result = 0;
         if (pheptoan == '+')
